@@ -1,0 +1,35 @@
+|Multiplexador4x1
+A => Mux2x1:G1.A
+B => Mux2x1:G1.B
+C => Mux2x1:G2.A
+D => Mux2x1:G2.B
+S0 => Mux2x1:G1.S
+S0 => Mux2x1:G2.S
+S1 => Mux2x1:G3.S
+Z <= Mux2x1:G3.saida
+
+
+|Multiplexador4x1|Mux2x1:G1
+A => saida.IN0
+B => saida.IN0
+S => saida.IN1
+S => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplexador4x1|Mux2x1:G2
+A => saida.IN0
+B => saida.IN0
+S => saida.IN1
+S => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplexador4x1|Mux2x1:G3
+A => saida.IN0
+B => saida.IN0
+S => saida.IN1
+S => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
