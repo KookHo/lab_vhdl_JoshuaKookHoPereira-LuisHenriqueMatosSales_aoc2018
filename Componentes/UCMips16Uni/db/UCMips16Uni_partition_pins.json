@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ULAOp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ULAOp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDst",
+					"strict" : false
+				},
+				{
+					"name" : "Jump",
+					"strict" : false
+				},
+				{
+					"name" : "Branch",
+					"strict" : false
+				},
+				{
+					"name" : "MemRead",
+					"strict" : false
+				},
+				{
+					"name" : "MemWrite",
+					"strict" : false
+				},
+				{
+					"name" : "ULASrc",
+					"strict" : false
+				},
+				{
+					"name" : "Mem2Reg",
+					"strict" : false
+				},
+				{
+					"name" : "RegWrite",
+					"strict" : false
+				},
+				{
+					"name" : "OPCode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCode[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

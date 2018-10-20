@@ -1,0 +1,29 @@
+|UCMips16Uni
+OPCode[0] => Equal0.IN7
+OPCode[0] => Equal1.IN7
+OPCode[0] => Equal2.IN7
+OPCode[0] => Equal3.IN7
+OPCode[1] => Equal0.IN6
+OPCode[1] => Equal1.IN6
+OPCode[1] => Equal2.IN6
+OPCode[1] => Equal3.IN6
+OPCode[2] => Equal0.IN5
+OPCode[2] => Equal1.IN5
+OPCode[2] => Equal2.IN5
+OPCode[2] => Equal3.IN5
+OPCode[3] => Equal0.IN4
+OPCode[3] => Equal1.IN4
+OPCode[3] => Equal2.IN4
+OPCode[3] => Equal3.IN4
+ULAOp[0] <= ULAOp[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[1] <= ULAOp[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegDst <= RegDst$latch.DB_MAX_OUTPUT_PORT_TYPE
+Jump <= Jump$latch.DB_MAX_OUTPUT_PORT_TYPE
+Branch <= Branch$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemRead <= MemRead$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite <= MemWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+ULASrc <= ULASrc$latch.DB_MAX_OUTPUT_PORT_TYPE
+Mem2Reg <= Mem2Reg$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= RegWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
