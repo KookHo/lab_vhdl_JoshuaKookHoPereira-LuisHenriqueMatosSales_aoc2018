@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Multiplexador4x1 is 
+	port(
+		A,B,C,D,S0,S1: in bit;
+		Z: out bit
+		);
+end Multiplexador4x1;
+
+ARCHITECTURE behavior of Multiplexador4x1 is
+
+component Mux2x1 is
+	port(
+		A, B, S: in bit;
+		saida: out bit
+	);
+end component;
+
+signal saida1: bit;
+signal saida2: bit;
+--signal saida3: std_logic;
+
+begin
+	G1:Mux2x1 port map (A,B,S0,saida1);
+	G2:Mux2x1 port map (C,D,S0,saida2);
+	G3:Mux2x1 port map (saida1,saida2,S1,Z);
+end;
