@@ -1,0 +1,13 @@
+library ieee;
+use ieee_STD_LOGIC_1164.all;
+
+entity portaOR is port(
+	A: in STD_LOGIC;
+	B: in STD_LOGIC;
+	SO: out STD_LOGIC
+	);
+
+ARCHITECTURE behavior of portaOR is
+BEGIN
+	SO <= A or B;
+END behavior;
