@@ -1,0 +1,253 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RegA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ReadReg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RegWrite",
+					"strict" : false
+				},
+				{
+					"name" : "EndRegWrite[0]",
+					"strict" : false
+				},
+				{
+					"name" : "EndRegWrite[1]",
+					"strict" : false
+				},
+				{
+					"name" : "EndRegWrite[2]",
+					"strict" : false
+				},
+				{
+					"name" : "EndRegWrite[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "WriteData[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -16,11 +16,11 @@ ARCHiTECTURE CPU of UCMips16Uni is
 	begin
 		
 		RegDst   <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Branch   <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Jump     <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		MemRead  <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		MemWrite <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Mem2Reg  <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		Branch   <= '1' when OPCode = "0110" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		Jump     <= '1' when OPCode = "0101" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		MemRead  <= '1' when OPCode = "0111" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		MemWrite <= '1' when OPCode = "1000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		Mem2Reg  <= '1' when OPCode = "1001" else '0' when OPCode = "0001"; -- a decididr os OPCodes
 		ULASrc   <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
 		RegWrite <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
 		
