@@ -1,0 +1,21 @@
+ibrary IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+entity ExtensorDeSinal_8_16 is 
+    port ( data_in : in std_logic_vector(7 downto 0);
+           data_out : out std_logic_vector(15 downto 0));
+end ExtensorDeSinal_8_16;
+
+architecture behavioral of ExtensorDeSinal_8_16 is 
+begin
+    process (data_in)
+begin
+    
+    
+    data_out(7 downto 0) <= data_in;
+    data_out(15 downto 8) <= (15 downto 8 => data_in(7));
+end process;     
+end behavioral;

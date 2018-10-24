@@ -1,0 +1,45 @@
+# do ExtensorDeSinal.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:11 on Oct 24,2018
+# vcom -work work ExtensorDeSinal.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity ExtensorDeSinal_8_16
+# -- Compiling architecture structure of ExtensorDeSinal_8_16
+# End time: 18:05:11 on Oct 24,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:11 on Oct 24,2018
+# vcom -work work Waveform_Extensor_8_16.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ExtensorDeSinal_8_16_vhd_vec_tst
+# -- Compiling architecture ExtensorDeSinal_8_16_arch of ExtensorDeSinal_8_16_vhd_vec_tst
+# End time: 18:05:11 on Oct 24,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.ExtensorDeSinal_8_16_vhd_vec_tst 
+# Start time: 18:05:11 on Oct 24,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.extensordesinal_8_16_vhd_vec_tst(extensordesinal_8_16_arch)
+# Loading altera_lnsim.altera_lnsim_components
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cyclonev.cyclonev_atom_pack(body)
+# Loading cyclonev.cyclonev_components
+# Loading work.extensordesinal_8_16(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclonev.cyclonev_io_obuf(arch)
+# Loading cyclonev.cyclonev_io_ibuf(arch)
+# after#32
+# End time: 18:05:12 on Oct 24,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

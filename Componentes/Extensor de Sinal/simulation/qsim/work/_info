@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim
+Eextensordesinal_4_16
+Z1 w1540418213
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+R0
+Z9 8ExtensorDeSinal.vho
+Z10 FExtensorDeSinal.vho
+l0
+L36
+V]1UoI_aY`Rc4l1Z[og<SK1
+!s100 clLaKk=fi_<;:FQl:d<m11
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1540418222
+!i10b 1
+Z13 !s108 1540418221.000000
+Z14 !s90 -work|work|ExtensorDeSinal.vho|
+Z15 !s107 ExtensorDeSinal.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 20 extensordesinal_4_16 0 22 ]1UoI_aY`Rc4l1Z[og<SK1
+l84
+L66
+Vc9b6X[dLFCW8HQ2T4]7BU3
+!s100 Di_diBMHm@cKlhcn4Xk=^3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eextensordesinal_4_16_vhd_vec_tst
+Z18 w1540418211
+R6
+R7
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L31
+VU^@WEmJjHl_<[_bSA2Nz01
+!s100 2RP3D;^=^;A^4<1f?h:Oa2
+R11
+32
+R12
+!i10b 1
+Z21 !s108 1540418222.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aextensordesinal_4_16_arch
+R6
+R7
+DEx4 work 32 extensordesinal_4_16_vhd_vec_tst 0 22 U^@WEmJjHl_<[_bSA2Nz01
+l44
+L33
+VC12?`8O9Yj48OaT8@jkW50
+!s100 mZMIAH2o<acJ>ckRDVJ]32
+R11
+32
+R12
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R16
+R17
+Eextensordesinal_8_16
+Z24 w1540418710
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L36
+VP2V0TVONR<V][ikUHdBTL2
+!s100 ^fJbW=`5Ue3W<S0^2XNa31
+R11
+32
+Z25 !s110 1540418711
+!i10b 1
+Z26 !s108 1540418711.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 20 extensordesinal_8_16 0 22 P2V0TVONR<V][ikUHdBTL2
+l80
+L43
+Vm9n0zLA?QG65Ljo>kWMLg2
+!s100 ab81LA`i05<IkfIf8GlgS0
+R11
+32
+R25
+!i10b 1
+R26
+R14
+R15
+!i113 1
+R16
+R17
+Eextensordesinal_8_16_vhd_vec_tst
+Z27 w1540418708
+R6
+R7
+R0
+Z28 8Waveform_Extensor_8_16.vwf.vht
+Z29 FWaveform_Extensor_8_16.vwf.vht
+l0
+L31
+V?<JX78L8Q;5D=@lMUYnkN2
+!s100 daQb9CBiZF9UDOmzh8o6T2
+R11
+32
+R25
+!i10b 1
+R26
+Z30 !s90 -work|work|Waveform_Extensor_8_16.vwf.vht|
+Z31 !s107 Waveform_Extensor_8_16.vwf.vht|
+!i113 1
+R16
+R17
+Aextensordesinal_8_16_arch
+R6
+R7
+Z32 DEx4 work 32 extensordesinal_8_16_vhd_vec_tst 0 22 ?<JX78L8Q;5D=@lMUYnkN2
+l44
+L33
+ViA43K>j<a<BbTCN`;GG5[0
+!s100 A;J1HJjX[i>SP`B^^k]DE0
+R11
+32
+R25
+!i10b 1
+R26
+R30
+R31
+!i113 1
+R16
+R17
