@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TheMultiplexador is port
+	(
+	 A, B, C, D, E ,F :in std_logic;
+	 G, H: in std_logic_vector (15 downto 0);
+	 Choice: in std_logic_vector (3 downto 0);
+	 OutPut: out std_logic_vector (15 downto 0)
+	);
+end TheMultiplexador;
+
+architecture behavior of TheMultiplexador is
+begin
+	process(Choice)
+		begin
+			case Choice is
+				when "0000" => OutPut <=	(others => '0');
+				when "0001" => OutPut <= SumResult;
+				when "0010" => OutPut <=	SubResult;
+				when "0011" => OutPut <=	(0 => ANDResult, others => '0');
+				when "0100" => OutPut <=	(0 => NOTResult, others => '0');
+				when "0101" => OutPut <=	(0 => ORResult, others => '0');
+				when "0110" => OutPut <=	(0 => NANDResult, others => '0');
+				when "0111" => OutPut <=	(0 => NORResult, others => '0');
+				when "1000" => OutPut <=	(0 => XORResult, others => '0');
+				when "1001" => OutPut <=	(others => '0');
+				when "1010" => OutPut <=	(others => '0');
+				when "1011" => OutPut <=	(others => '0');
+				when "1100" => OutPut <=	(others => '0');
+				when "1101" => OutPut <=	(others => '0');
+				when "1110" => OutPut <=	(others => '0');
+				when "1111" => OutPut <=	(others => '0');
+			end case;
+	end process;
+end behavior;
