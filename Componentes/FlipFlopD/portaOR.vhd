@@ -1,14 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity portaOR is port(
-	PA: in std_logic;
-	PB: in std_logic;
-	SO: out std_logic
+entity ORPort is port(
+	A: in std_logic;
+	B: in std_logic;
+	S: out std_logic
 );
-END portaOR;
+END ORPort;
 
-ARCHITECTURE behavior of portaOR is
+ARCHITECTURE behavior of ORPort is
 BEGIN
-	SO <= pa or pb;
+	S <= A or B;
 END behavior;

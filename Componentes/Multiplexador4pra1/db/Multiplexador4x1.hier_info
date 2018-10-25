@@ -6,7 +6,7 @@ D => Mux2x1:G2.B
 S0 => Mux2x1:G1.S
 S0 => Mux2x1:G2.S
 S1 => Mux2x1:G3.S
-Z <= Mux2x1:G3.saida
+Z << Mux2x1:G3.saida
 
 
 |Multiplexador4x1|Mux2x1:G1

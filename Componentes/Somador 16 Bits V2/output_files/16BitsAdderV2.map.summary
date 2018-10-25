@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Wed Oct 24 15:50:44 2018
+Analysis & Synthesis Status : Successful - Thu Oct 25 19:24:22 2018
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : 16BitsAdderV2
-Top-level Entity Name : Adder1bit
+Top-level Entity Name : Adder16Bits
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 5
+Total pins : 50
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

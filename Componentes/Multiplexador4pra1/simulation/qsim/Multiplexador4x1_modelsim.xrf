@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1/Mux2x1.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1/Multiplexador4x1.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1/db/Multiplexador4x1.cbx.xml
+design_name = Multiplexador4x1
+instance = comp, \Z~output\, Z~output, Multiplexador4x1, 1
+instance = comp, \D~input\, D~input, Multiplexador4x1, 1
+instance = comp, \C~input\, C~input, Multiplexador4x1, 1
+instance = comp, \B~input\, B~input, Multiplexador4x1, 1
+instance = comp, \A~input\, A~input, Multiplexador4x1, 1
+instance = comp, \S0~input\, S0~input, Multiplexador4x1, 1
+instance = comp, \S1~input\, S1~input, Multiplexador4x1, 1
+instance = comp, \G3|saida~0\, G3|saida~0, Multiplexador4x1, 1

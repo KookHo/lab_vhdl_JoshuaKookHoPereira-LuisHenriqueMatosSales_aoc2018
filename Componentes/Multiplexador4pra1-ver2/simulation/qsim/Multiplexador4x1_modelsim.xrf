@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1-ver2/db/Multiplexador4x1.cbx.xml
+design_name = Multiplexador4pra1
+instance = comp, \S~output\, S~output, Multiplexador4pra1, 1
+instance = comp, \A~input\, A~input, Multiplexador4pra1, 1
+instance = comp, \C~input\, C~input, Multiplexador4pra1, 1
+instance = comp, \B~input\, B~input, Multiplexador4pra1, 1
+instance = comp, \D~input\, D~input, Multiplexador4pra1, 1
+instance = comp, \Selector[1]~input\, Selector[1]~input, Multiplexador4pra1, 1
+instance = comp, \Selector[0]~input\, Selector[0]~input, Multiplexador4pra1, 1
+instance = comp, \S~0\, S~0, Multiplexador4pra1, 1

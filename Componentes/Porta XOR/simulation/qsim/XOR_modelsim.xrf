@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Porta XOR/PortaAND.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Porta XOR/PortaOR.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Porta XOR/XXOR.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Porta XOR/PortaNOT.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Porta XOR/db/XOR.cbx.xml
+design_name = XXOR
+instance = comp, \SAIDA~output\, SAIDA~output, XXOR, 1
+instance = comp, \EA~input\, EA~input, XXOR, 1
+instance = comp, \EB~input\, EB~input, XXOR, 1
+instance = comp, \G5|S~0\, G5|S~0, XXOR, 1

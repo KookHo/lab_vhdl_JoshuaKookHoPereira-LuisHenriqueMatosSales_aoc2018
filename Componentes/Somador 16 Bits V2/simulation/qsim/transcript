@@ -1,0 +1,40 @@
+# do 16BitsAdderV2.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:34:51 on Oct 25,2018
+# vcom -work work 16BitsAdderV2.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity Adder2Bits
+# -- Compiling architecture structure of Adder2Bits
+# End time: 14:34:53 on Oct 25,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:34:53 on Oct 25,2018
+# vcom -work work Waveform_Adder16BitsV2.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder2Bits_vhd_vec_tst
+# -- Compiling architecture Adder2Bits_arch of Adder2Bits_vhd_vec_tst
+# End time: 14:34:53 on Oct 25,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Adder16Bits_vhd_vec_tst 
+# Start time: 14:34:55 on Oct 25,2018
+# ** Error: (vsim-3170) Could not find 'Adder16Bits_vhd_vec_tst'.
+#         Searched libraries:
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/cyclonev
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/altera
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/altera_mf
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/220model
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/sgate
+#             c:/joshua/quartus-lite-18.0.0.614-windows/modelsim_ase/altera/vhdl/altera_lnsim
+#             C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Somador 16 Bits V2/simulation/qsim/work
+# Error loading design
+# End time: 14:34:55 on Oct 25,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

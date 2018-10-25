@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Multiplexador4x1
-Sat Oct 20 18:08:21 2018
+Thu Oct 25 18:28:12 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Oct 20 18:08:21 2018       ;
+; Analysis & Synthesis Status     ; Successful - Thu Oct 25 18:28:12 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; Multiplexador4x1                            ;
 ; Top-level Entity Name           ; Multiplexador4pra1                          ;
@@ -165,13 +165,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                          ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                   ; Library ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------+---------+
-; Multiplexador4pra1.vhd           ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd ;         ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                    ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                             ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; Multiplexador4pra1.vhd           ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -246,7 +246,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -256,13 +256,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sat Oct 20 18:08:02 2018
+    Info: Processing started: Thu Oct 25 18:27:55 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Multiplexador4x1 -c Multiplexador4x1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file multiplexador4pra1.vhd
-    Info (12022): Found design unit 1: Multiplexador4pra1-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd Line: 14
-    Info (12023): Found entity 1: Multiplexador4pra1 File: C:/Users/Kook Ho/Desktop/LabAOC/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd Line: 7
+    Info (12022): Found design unit 1: Multiplexador4pra1-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd Line: 14
+    Info (12023): Found entity 1: Multiplexador4pra1 File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Multiplexador4pra1-ver2/Multiplexador4pra1.vhd Line: 7
 Info (12127): Elaborating entity "Multiplexador4pra1" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -272,9 +272,9 @@ Info (21057): Implemented 8 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 781 megabytes
-    Info: Processing ended: Sat Oct 20 18:08:21 2018
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:32
+    Info: Peak virtual memory: 778 megabytes
+    Info: Processing ended: Thu Oct 25 18:28:12 2018
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:34
 
 

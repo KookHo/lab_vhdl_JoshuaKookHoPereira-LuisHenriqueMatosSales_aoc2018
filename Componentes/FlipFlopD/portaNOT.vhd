@@ -1,14 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity PortaNOT is
+entity NOTPort is
  port
-	(NA: in std_logic;
-	 SN: out std_logic
+	(A: in std_logic;
+	 S: out std_logic
 	 );
-end PortaNOT;
+end NOTPort;
 
-architecture func of PortaNOT is
+architecture behavior of NOTPort is
 begin
-   SN <= not NA;
-end func;
+   S <= not A;
+end behavior;

@@ -18,15 +18,15 @@ component PortaAND
 end component;
 
 component PortaOR
-	port (PA: in STD_LOGIC;
-			PB: in STD_LOGIC;
-			SO: out STD_LOGIC
+	port (A: in STD_LOGIC;
+			B: in STD_LOGIC;
+			S: out STD_LOGIC
 			);
 end component;
 
 component PortaNOT
-	port(NA: in STD_LOGIC;
-		  SN: out STD_LOGIC
+	port(A: in STD_LOGIC;
+		  S: out STD_LOGIC
 		  );
 end component;
 
