@@ -31,13 +31,13 @@ endereco[3] => Mux4.IN16
 endereco[3] => Mux5.IN16
 endereco[3] => Mux6.IN16
 endereco[3] => Mux7.IN16
-dado[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
-dado[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
-dado[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
-dado[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
-dado[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
-dado[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-dado[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
-dado[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+dado[0] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+dado[1] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+dado[2] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+dado[3] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+dado[4] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+dado[5] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+dado[6] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+dado[7] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 

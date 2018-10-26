@@ -35,15 +35,15 @@ OPCode[3] => Equal5.IN4
 OPCode[3] => Equal6.IN4
 OPCode[3] => Equal7.IN4
 OPCode[3] => Equal8.IN4
-ULAOp[0] <= ULAOp[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ULAOp[1] <= ULAOp[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
-RegDst <= RegDst$latch.DB_MAX_OUTPUT_PORT_TYPE
-Jump <= Jump$latch.DB_MAX_OUTPUT_PORT_TYPE
-Branch <= Branch$latch.DB_MAX_OUTPUT_PORT_TYPE
-MemRead <= MemRead$latch.DB_MAX_OUTPUT_PORT_TYPE
-MemWrite <= MemWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
-ULASrc <= ULASrc$latch.DB_MAX_OUTPUT_PORT_TYPE
-Mem2Reg <= Mem2Reg$latch.DB_MAX_OUTPUT_PORT_TYPE
-RegWrite <= RegWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[0] << ULAOp[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[1] << ULAOp[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegDst << RegDst$latch.DB_MAX_OUTPUT_PORT_TYPE
+Jump << Jump$latch.DB_MAX_OUTPUT_PORT_TYPE
+Branch << Branch$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemRead << MemRead$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite << MemWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+ULASrc << ULASrc$latch.DB_MAX_OUTPUT_PORT_TYPE
+Mem2Reg << Mem2Reg$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite << RegWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
