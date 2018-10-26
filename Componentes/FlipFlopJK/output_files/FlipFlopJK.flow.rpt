@@ -1,5 +1,5 @@
 Flow report for FlipFlopJK
-Fri Oct 26 11:43:35 2018
+Fri Oct 26 15:11:00 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Oct 26 11:43:35 2018       ;
+; Flow Status                     ; Successful - Fri Oct 26 15:11:00 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; FlipFlopJK                                  ;
 ; Top-level Entity Name           ; FlipFlopJK                                  ;
@@ -99,7 +99,11 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 780 MB              ; 00:00:31                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
-; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:33                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 637 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 637 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
+; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:37                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,6 +115,10 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -118,6 +126,10 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off FlipFlopJK -c FlipFlopJK
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off FlipFlopJK -c FlipFlopJK --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/ FlipFlopJK -c FlipFlopJK
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off FlipFlopJK -c FlipFlopJK --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/ FlipFlopJK -c FlipFlopJK
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off FlipFlopJK -c FlipFlopJK --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/Waveform.vwf.vht
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/ FlipFlopJK -c FlipFlopJK
 

@@ -3,6 +3,7 @@ source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMato
 source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaOR.vhd
 source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaNOT.vhd
 source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/Waveform.vwf
 source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_b.vhd

@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MaquinaEstado is port
+	(Clock: in bit;
+	 P: in bit;
+	 Start: in bit;
+	 R: out bit
+	);
+end MaquinaEstado;
+
+architecture behavior of MaquinaEstado is
+
+type M_E is (D, C, B, A);
+signal state: M_E;
+
+begin
+	process(Clock, Start)
+	begin
+		if Start = '1' then
+			state <= A;
+		elsif (Clock'event and Clock = '1') then
+			case state is
+				when A =>
+					if P = '1' then state <= B;
+					else state <= D;
+					end if;
+				when B =>
+					if P = '1' then state <= C;
+					else state <= A;
+					end if;
+				when C =>
+					if P = '1' then state <= D;
+					else state <= B;
+					end if;
+				when D =>
+					if P = '1' then state <= A;
+					else state <= C;
+					end if;
+			end case;
+		end if;
+	end process;
+	
+	with state select 
+		R <= '0' when A,
+			  '0' when B,
+			  '0' when C.
+			  '1' when D;
+			  
+end behavior;

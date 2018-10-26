@@ -1,0 +1,38 @@
+|ContadorSinc
+A => JK:G1.J
+B => JK:G1.K
+Clock => JK:G1.clock
+Clock => JK:G2.clock
+Clock => JK:G4.clock
+S0 << JK:G1.Q1
+S1 << JK:G2.Q1
+S2 << JK:G4.Q1
+
+
+|ContadorSinc|JK:G1
+J => Mux0.IN4
+K => Mux0.IN5
+clock => state.CLK
+Q1 <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ContadorSinc|JK:G2
+J => Mux0.IN4
+K => Mux0.IN5
+clock => state.CLK
+Q1 <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ContadorSinc|portaAnd:G3
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ContadorSinc|JK:G4
+J => Mux0.IN4
+K => Mux0.IN5
+clock => state.CLK
+Q1 <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+

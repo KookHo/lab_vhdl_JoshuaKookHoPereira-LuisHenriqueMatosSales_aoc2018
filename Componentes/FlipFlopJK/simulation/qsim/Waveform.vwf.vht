@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "10/26/2018 11:43:33"
+-- Generated on "10/26/2018 15:10:58"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          FlipFlopJK
 -- 
@@ -61,13 +61,8 @@ BEGIN
 -- clock
 t_prcs_clock: PROCESS
 BEGIN
-LOOP
-	clock <= '0';
-	WAIT FOR 50000 ps;
 	clock <= '1';
-	WAIT FOR 50000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_clock;
 
 -- J
