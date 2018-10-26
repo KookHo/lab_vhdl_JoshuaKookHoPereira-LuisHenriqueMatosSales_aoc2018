@@ -1,5 +1,5 @@
 Analysis & Synthesis report for 16BitsAdderV2
-Thu Oct 25 19:24:22 2018
+Fri Oct 26 10:51:24 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 25 19:24:22 2018       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 26 10:51:24 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; 16BitsAdderV2                               ;
 ; Top-level Entity Name           ; Adder16Bits                                 ;
@@ -276,7 +276,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -286,7 +286,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 25 19:24:06 2018
+    Info: Processing started: Fri Oct 26 10:51:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 16BitsAdderV2 -c 16BitsAdderV2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -310,9 +310,9 @@ Info (21057): Implemented 79 device resources after synthesis - the final resour
     Info (21059): Implemented 17 output pins
     Info (21061): Implemented 29 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 778 megabytes
-    Info: Processing ended: Thu Oct 25 19:24:23 2018
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:35
+    Info: Peak virtual memory: 777 megabytes
+    Info: Processing ended: Fri Oct 26 10:51:24 2018
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:32
 
 

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ULA
-Thu Oct 25 15:58:47 2018
+Fri Oct 26 11:55:30 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Oct 25 15:58:47 2018 ;
+; EDA Netlist Writer Status ; Successful - Fri Oct 26 11:55:30 2018 ;
 ; Revision Name             ; ULA                                   ;
 ; Top-level Entity Name     ; ULA                                   ;
 ; Family                    ; Cyclone V                             ;
@@ -65,13 +65,13 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+--------------------------------------------------------------+
-; Simulation Generated Files                                   ;
-+--------------------------------------------------------------+
-; Generated Files                                              ;
-+--------------------------------------------------------------+
-; C:/Users/Kook Ho/Desktop/LabAOC/ULA/simulation/qsim//ULA.vho ;
-+--------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                             ;
++------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                        ;
++------------------------------------------------------------------------------------------------------------------------+
+; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/simulation/qsim//ULA.vho ;
++------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -93,14 +93,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Oct 25 15:58:46 2018
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Kook Ho/Desktop/LabAOC/ULA/simulation/qsim/" ULA -c ULA
+    Info: Processing started: Fri Oct 26 11:55:29 2018
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/simulation/qsim/ ULA -c ULA
 Info (119006): Selected device 5CGXFC7C7F23C8 for design "ULA"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file ULA.vho in folder "C:/Users/Kook Ho/Desktop/LabAOC/ULA/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file ULA.vho in folder "C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 640 megabytes
-    Info: Processing ended: Thu Oct 25 15:58:47 2018
+    Info: Peak virtual memory: 639 megabytes
+    Info: Processing ended: Fri Oct 26 11:55:30 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

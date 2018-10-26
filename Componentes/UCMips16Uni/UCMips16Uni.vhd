@@ -15,16 +15,18 @@ end UCMips16Uni;
 ARCHiTECTURE CPU of UCMips16Uni is
 	begin
 		
-		RegDst   <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Branch   <= '1' when OPCode = "0110" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Jump     <= '1' when OPCode = "0101" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		MemRead  <= '1' when OPCode = "0111" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		MemWrite <= '1' when OPCode = "1000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		Mem2Reg  <= '1' when OPCode = "1001" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		ULASrc   <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
-		RegWrite <= '1' when OPCode = "0000" else '0' when OPCode = "0001"; -- a decididr os OPCodes
+		RegDst   <= '1' when OPCode = "0000" else '1' when OPCode = "0001" else '1' when OPCode = "0010" else '1' when OPCode = "0011" 
+						else '1' when OPCode = "1010" else '1' when OPCode = "1011" else '1' when OPCode = "1100" else '1' when OPCode = "1101" else '0';
+		Branch   <= '1' when OPCode = "0100" else '1' when OPCode = "0101" else '0';
+		Jump     <= '1' when OPCode = "0110" else '1' when OPCode = "0111" else '0';
+		MemRead  <= '1' when OPCode = "1000" else '0';
+		MemWrite <= '1' when OPCode = "1001" else '0';
+		Mem2Reg  <= '1' when OPCode = "1000" else '0';
+		ULASrc   <= '1' when OPCode = "1000" else '1' when OPCode = "1001";
+		RegWrite <= '1' when OPCode = "1000" else '1' when OPCode = "0000" else '1' when OPCode = "0001" else '1' when OPCode = "0010" else '1' when OPCode = "0011" 
+						else '1' when OPCode = "1010" else '1' when OPCode = "1011" else '1' when OPCode = "1100" else '1' when OPCode = "1101" else '0';
 		
-		ULAOp <= "00" when OPCode = "0000" else "01" when OPCode = "0001" else "10" when OPCode = "0010" else "11" when OPCode = "0011";
+		ULAOp <= "00" when OPCode = "0000" else "00" when OPCode = "0001" else "01" when OPCode = "0010" else "10" when OPCode = "0011" else "11" when OPCode = "1010";
 		
 end CPU;
 			

@@ -1,5 +1,5 @@
 Flow report for ExtensorDeSinal
-Wed Oct 24 18:05:10 2018
+Fri Oct 26 11:36:24 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Oct 24 18:05:10 2018       ;
+; Flow Status                     ; Successful - Fri Oct 26 11:36:24 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ExtensorDeSinal                             ;
-; Top-level Entity Name           ; ExtensorDeSinal_8_16                        ;
+; Top-level Entity Name           ; ExtensorDeSinal_4_16                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CGXFC7C7F23C8                              ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 24                                          ;
+; Total pins                      ; 20                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/24/2018 17:59:39 ;
+; Start date & time ; 10/26/2018 11:36:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ExtensorDeSinal     ;
 +-------------------+---------------------+
@@ -78,17 +78,17 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+-----------------+----------------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name          ; Section Id     ;
 +-------------------------------------+----------------------------------------+-----------------+----------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 24272905989337.154041837912192         ; --              ; --                   ; --             ;
+; COMPILER_SIGNATURE_ID               ; 88623642251131.154056817006256         ; --              ; --                   ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --              ; --                   ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>          ; --                   ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --                   ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --              ; --                   ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --              ; --                   ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_8_16 ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_8_16 ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_8_16 ; Top            ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_4_16 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_4_16 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; ExtensorDeSinal_4_16 ; Top            ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --              ; --                   ; --             ;
-; TOP_LEVEL_ENTITY                    ; ExtensorDeSinal_8_16                   ; ExtensorDeSinal ; --                   ; --             ;
+; TOP_LEVEL_ENTITY                    ; ExtensorDeSinal_4_16                   ; ExtensorDeSinal ; --                   ; --             ;
 +-------------------------------------+----------------------------------------+-----------------+----------------------+----------------+
 
 
@@ -97,16 +97,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 780 MB              ; 00:00:31                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 640 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 640 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 640 MB              ; 00:00:01                           ;
-; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:39                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 777 MB              ; 00:00:32                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:32                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -116,14 +108,6 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -131,14 +115,6 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal --vector_source="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/Waveform1.vwf" --testbench_file="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/Waveform1.vwf.vht"
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal --vector_source="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/Waveform1.vwf" --testbench_file="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/Waveform1.vwf.vht"
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal --vector_source="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/Waveform_Extensor_8_16.vwf" --testbench_file="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/Waveform_Extensor_8_16.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/" ExtensorDeSinal -c ExtensorDeSinal
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal --vector_source="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/Waveform_Extensor_8_16.vwf" --testbench_file="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/Waveform_Extensor_8_16.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/" ExtensorDeSinal -c ExtensorDeSinal
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ExtensorDeSinal -c ExtensorDeSinal --vector_source="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/Waveform_Extensor_8_16.vwf" --testbench_file="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/Waveform_Extensor_8_16.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/Extensor de Sinal/simulation/qsim/" ExtensorDeSinal -c ExtensorDeSinal
 
 
 

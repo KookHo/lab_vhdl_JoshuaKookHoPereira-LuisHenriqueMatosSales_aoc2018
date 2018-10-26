@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Thu Oct 25 15:56:13 2018
+Fri Oct 26 12:03:06 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 25 15:56:13 2018       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 26 12:03:06 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ULA                                         ;
 ; Top-level Entity Name           ; ULA                                         ;
@@ -166,22 +166,24 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                    ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                             ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
-; Adder16Bits.vhd                  ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/Adder16Bits.vhd      ;         ;
-; Subtractor.vhd                   ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/Subtractor.vhd       ;         ;
-; ANDPort.vhd                      ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/ANDPort.vhd          ;         ;
-; NOTPort.vhd                      ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/NOTPort.vhd          ;         ;
-; ORPort.vhd                       ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/ORPort.vhd           ;         ;
-; XORPort.vhd                      ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/XORPort.vhd          ;         ;
-; ULA.vhd                          ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd              ;         ;
-; NANDPort.vhd                     ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/NANDPort.vhd         ;         ;
-; NORPort.vhd                      ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/NORPort.vhd          ;         ;
-; TheMultiplexador.vhd             ; yes             ; User VHDL File  ; C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                       ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
+; Adder16Bits.vhd                  ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Adder16Bits.vhd      ;         ;
+; Subtractor.vhd                   ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Subtractor.vhd       ;         ;
+; ANDPort.vhd                      ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ANDPort.vhd          ;         ;
+; NOTPort.vhd                      ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NOTPort.vhd          ;         ;
+; ORPort.vhd                       ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ORPort.vhd           ;         ;
+; XORPort.vhd                      ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/XORPort.vhd          ;         ;
+; ULA.vhd                          ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd              ;         ;
+; NANDPort.vhd                     ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NANDPort.vhd         ;         ;
+; NORPort.vhd                      ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NORPort.vhd          ;         ;
+; TheMultiplexador.vhd             ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd ;         ;
+; ShiftDir.vhd                     ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftDir.vhd         ;         ;
+; ShiftEsq.vhd                     ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftEsq.vhd         ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -189,14 +191,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 18             ;
+; Estimate of Logic utilization (ALMs needed) ; 21             ;
 ;                                             ;                ;
-; Combinational ALUT usage for logic          ; 35             ;
+; Combinational ALUT usage for logic          ; 39             ;
 ;     -- 7 input functions                    ; 0              ;
-;     -- 6 input functions                    ; 1              ;
-;     -- 5 input functions                    ; 0              ;
-;     -- 4 input functions                    ; 1              ;
-;     -- <=3 input functions                  ; 33             ;
+;     -- 6 input functions                    ; 3              ;
+;     -- 5 input functions                    ; 15             ;
+;     -- 4 input functions                    ; 4              ;
+;     -- <=3 input functions                  ; 17             ;
 ;                                             ;                ;
 ; Dedicated logic registers                   ; 0              ;
 ;                                             ;                ;
@@ -205,21 +207,21 @@ refer to the applicable agreement for further details.
 ; Total DSP Blocks                            ; 0              ;
 ;                                             ;                ;
 ; Maximum fan-out node                        ; ULAOP[1]~input ;
-; Maximum fan-out                             ; 18             ;
-; Total fan-out                               ; 177            ;
-; Average fan-out                             ; 1.26           ;
+; Maximum fan-out                             ; 20             ;
+; Total fan-out                               ; 243            ;
+; Average fan-out                             ; 1.68           ;
 +---------------------------------------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                              ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+------------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name      ; Entity Name      ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+------------------+--------------+
-; |ULA                       ; 35 (0)              ; 0 (0)                     ; 0                 ; 0          ; 53   ; 0            ; |ULA                     ; ULA              ; work         ;
-;    |Subtractor:G6|         ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|Subtractor:G6       ; Subtractor       ; work         ;
-;    |TheMultiplexador:G9|   ; 18 (18)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|TheMultiplexador:G9 ; TheMultiplexador ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------+------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                               ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name      ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
+; |ULA                       ; 39 (0)              ; 0 (0)                     ; 0                 ; 0          ; 53   ; 0            ; |ULA                      ; ULA              ; work         ;
+;    |Subtractor:G6|         ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|Subtractor:G6        ; Subtractor       ; work         ;
+;    |TheMultiplexador:G11|  ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|TheMultiplexador:G11 ; TheMultiplexador ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -238,13 +240,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
-; 16:1               ; 15 bits   ; 150 LEs       ; 45 LEs               ; 105 LEs                ; No         ; |ULA|TheMultiplexador:G9|Mux8 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; 10:1               ; 11 bits   ; 66 LEs        ; 44 LEs               ; 22 LEs                 ; No         ; |ULA|TheMultiplexador:G11|Mux8  ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |ULA|TheMultiplexador:G11|Mux11 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
 
 
 +-----------------------------------------------------+
@@ -252,16 +255,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 36                          ;
+; arriav_lcell_comb     ; 40                          ;
 ;     arith             ; 17                          ;
 ;         1 data inputs ; 1                           ;
 ;         3 data inputs ; 16                          ;
-;     normal            ; 19                          ;
+;     normal            ; 23                          ;
 ;         0 data inputs ; 1                           ;
-;         2 data inputs ; 15                          ;
-;         3 data inputs ; 1                           ;
-;         4 data inputs ; 1                           ;
-;         6 data inputs ; 1                           ;
+;         4 data inputs ; 4                           ;
+;         5 data inputs ; 15                          ;
+;         6 data inputs ; 3                           ;
 ; boundary_port         ; 53                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.60                        ;
@@ -284,72 +286,82 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 25 15:55:57 2018
+    Info: Processing started: Fri Oct 26 12:02:50 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file adder16bits.vhd
-    Info (12022): Found design unit 1: Adder16Bits-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/Adder16Bits.vhd Line: 13
-    Info (12023): Found entity 1: Adder16Bits File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/Adder16Bits.vhd Line: 6
+    Info (12022): Found design unit 1: Adder16Bits-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Adder16Bits.vhd Line: 13
+    Info (12023): Found entity 1: Adder16Bits File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Adder16Bits.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file subtractor.vhd
-    Info (12022): Found design unit 1: Subtractor-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/Subtractor.vhd Line: 13
-    Info (12023): Found entity 1: Subtractor File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/Subtractor.vhd Line: 6
+    Info (12022): Found design unit 1: Subtractor-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Subtractor.vhd Line: 13
+    Info (12023): Found entity 1: Subtractor File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/Subtractor.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file andport.vhd
-    Info (12022): Found design unit 1: ANDPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ANDPort.vhd Line: 13
-    Info (12023): Found entity 1: ANDPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ANDPort.vhd Line: 4
+    Info (12022): Found design unit 1: ANDPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ANDPort.vhd Line: 13
+    Info (12023): Found entity 1: ANDPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ANDPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file notport.vhd
-    Info (12022): Found design unit 1: NOTPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NOTPort.vhd Line: 11
-    Info (12023): Found entity 1: NOTPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NOTPort.vhd Line: 4
+    Info (12022): Found design unit 1: NOTPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NOTPort.vhd Line: 11
+    Info (12023): Found entity 1: NOTPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NOTPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file orport.vhd
-    Info (12022): Found design unit 1: ORPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ORPort.vhd Line: 11
-    Info (12023): Found entity 1: ORPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ORPort.vhd Line: 4
+    Info (12022): Found design unit 1: ORPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ORPort.vhd Line: 11
+    Info (12023): Found entity 1: ORPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ORPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file xorport.vhd
-    Info (12022): Found design unit 1: XORPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/XORPort.vhd Line: 11
-    Info (12023): Found entity 1: XORPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/XORPort.vhd Line: 4
+    Info (12022): Found design unit 1: XORPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/XORPort.vhd Line: 11
+    Info (12023): Found entity 1: XORPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/XORPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
-    Info (12022): Found design unit 1: ULA-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 16
-    Info (12023): Found entity 1: ULA File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 6
+    Info (12022): Found design unit 1: ULA-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 16
+    Info (12023): Found entity 1: ULA File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file nandport.vhd
-    Info (12022): Found design unit 1: NANDPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NANDPort.vhd Line: 11
-    Info (12023): Found entity 1: NANDPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NANDPort.vhd Line: 4
+    Info (12022): Found design unit 1: NANDPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NANDPort.vhd Line: 11
+    Info (12023): Found entity 1: NANDPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NANDPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file norport.vhd
-    Info (12022): Found design unit 1: NORPort-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NORPort.vhd Line: 11
-    Info (12023): Found entity 1: NORPort File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/NORPort.vhd Line: 4
+    Info (12022): Found design unit 1: NORPort-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NORPort.vhd Line: 11
+    Info (12023): Found entity 1: NORPort File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/NORPort.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file themultiplexador.vhd
-    Info (12022): Found design unit 1: TheMultiplexador-behavior File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 13
-    Info (12023): Found entity 1: TheMultiplexador File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 4
+    Info (12022): Found design unit 1: TheMultiplexador-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 13
+    Info (12023): Found entity 1: TheMultiplexador File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file shiftdir.vhd
+    Info (12022): Found design unit 1: ShiftDir-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftDir.vhd Line: 12
+    Info (12023): Found entity 1: ShiftDir File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftDir.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file shiftesq.vhd
+    Info (12022): Found design unit 1: ShiftEsq-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftEsq.vhd Line: 12
+    Info (12023): Found entity 1: ShiftEsq File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ShiftEsq.vhd Line: 6
 Info (12127): Elaborating entity "ULA" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at ULA.vhd(12): used implicit default value for signal "Zero" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 12
-Info (12128): Elaborating entity "NOTPort" for hierarchy "NOTPort:G1" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 86
-Info (12128): Elaborating entity "ANDPort" for hierarchy "ANDPort:G2" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 87
-Info (12128): Elaborating entity "XORPort" for hierarchy "XORPort:G3" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 88
-Info (12128): Elaborating entity "ORPort" for hierarchy "XORPort:G3|ORPort:G5" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/XORPort.vhd Line: 43
-Info (12128): Elaborating entity "Adder16Bits" for hierarchy "Adder16Bits:G5" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 90
-Info (12128): Elaborating entity "Subtractor" for hierarchy "Subtractor:G6" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 91
-Info (12128): Elaborating entity "NANDPort" for hierarchy "NANDPort:G7" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 92
-Info (12128): Elaborating entity "NORPort" for hierarchy "NORPort:G8" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 93
-Info (12128): Elaborating entity "TheMultiplexador" for hierarchy "TheMultiplexador:G9" File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 94
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(19): signal "Sum" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 19
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(20): signal "Sub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 20
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(21): signal "A" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 21
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(22): signal "NO" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 22
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(23): signal "O" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 23
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(24): signal "NA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 24
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(25): signal "NR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 25
-Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(26): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/TheMultiplexador.vhd Line: 26
+Warning (10541): VHDL Signal Declaration warning at ULA.vhd(12): used implicit default value for signal "Zero" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 12
+Info (12128): Elaborating entity "NOTPort" for hierarchy "NOTPort:G1" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 100
+Info (12128): Elaborating entity "ANDPort" for hierarchy "ANDPort:G2" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 101
+Info (12128): Elaborating entity "XORPort" for hierarchy "XORPort:G3" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 102
+Info (12128): Elaborating entity "ORPort" for hierarchy "XORPort:G3|ORPort:G5" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/XORPort.vhd Line: 43
+Info (12128): Elaborating entity "Adder16Bits" for hierarchy "Adder16Bits:G5" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 104
+Info (12128): Elaborating entity "Subtractor" for hierarchy "Subtractor:G6" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 105
+Info (12128): Elaborating entity "NANDPort" for hierarchy "NANDPort:G7" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 106
+Info (12128): Elaborating entity "NORPort" for hierarchy "NORPort:G8" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 107
+Info (12128): Elaborating entity "ShiftDir" for hierarchy "ShiftDir:G9" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 108
+Info (12128): Elaborating entity "ShiftEsq" for hierarchy "ShiftEsq:G10" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 109
+Info (12128): Elaborating entity "TheMultiplexador" for hierarchy "TheMultiplexador:G11" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 110
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(19): signal "Sum" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 19
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(20): signal "Sub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 20
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(21): signal "A" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 21
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(22): signal "NO" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 22
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(23): signal "O" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 23
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(24): signal "NA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 24
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(25): signal "NR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 25
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(26): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 26
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(27): signal "ShiftL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 27
+Warning (10492): VHDL Process Statement warning at TheMultiplexador.vhd(28): signal "ShiftR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/TheMultiplexador.vhd Line: 28
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Zero" is stuck at GND File: C:/Users/Kook Ho/Desktop/LabAOC/ULA/ULA.vhd Line: 12
+    Warning (13410): Pin "Zero" is stuck at GND File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/ULA/ULA.vhd Line: 12
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 88 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 92 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 36 input pins
     Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 35 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 775 megabytes
-    Info: Processing ended: Thu Oct 25 15:56:13 2018
+    Info (21061): Implemented 39 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 780 megabytes
+    Info: Processing ended: Fri Oct 26 12:03:06 2018
     Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:33
+    Info: Total CPU time (on all processors): 00:00:34
 
 

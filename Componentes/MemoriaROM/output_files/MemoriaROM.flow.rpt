@@ -1,5 +1,5 @@
 Flow report for MemoriaROM
-Thu Oct 25 20:10:17 2018
+Fri Oct 26 11:29:41 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Oct 25 20:10:17 2018       ;
+; Flow Status                     ; Successful - Fri Oct 26 11:29:41 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; MemoriaROM                                  ;
 ; Top-level Entity Name           ; MemoriaROM                                  ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/25/2018 20:08:55 ;
+; Start date & time ; 10/26/2018 11:29:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; MemoriaROM          ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 88623642251131.154051253511440         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 88623642251131.154056776601520         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -96,12 +96,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 779 MB              ; 00:00:33                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 637 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
-; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:37                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 776 MB              ; 00:00:35                           ;
+; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,10 +107,6 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -122,10 +114,6 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off MemoriaROM -c MemoriaROM
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off MemoriaROM -c MemoriaROM --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/simulation/qsim/ MemoriaROM -c MemoriaROM
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off MemoriaROM -c MemoriaROM --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/MemoriaROM/simulation/qsim/ MemoriaROM -c MemoriaROM
 
 
 

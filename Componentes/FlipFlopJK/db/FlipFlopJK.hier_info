@@ -1,0 +1,65 @@
+|FlipFlopJK
+J => portaAND:G1.B
+K => portaAND:G4.B
+clock => portaAND:G2.B
+clock => portaAND:G4.A
+Q0 <= portaNOT:G10.SN
+Q1 <= portaNOT:G8.SN
+
+
+|FlipFlopJK|portaAnd:G1
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaAnd:G2
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaNOT:G3
+NA => SN.DATAIN
+SN <= NA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaAnd:G4
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaAnd:G5
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaNOT:G6
+NA => SN.DATAIN
+SN <= NA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaAnd:G7
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaNOT:G8
+NA => SN.DATAIN
+SN <= NA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaAnd:G9
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FlipFlopJK|portaNOT:G10
+NA => SN.DATAIN
+SN <= NA.DB_MAX_OUTPUT_PORT_TYPE
+
+

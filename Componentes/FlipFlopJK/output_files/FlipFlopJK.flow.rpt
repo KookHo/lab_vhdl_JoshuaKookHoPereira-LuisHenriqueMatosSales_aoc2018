@@ -1,6 +1,6 @@
 Flow report for FlipFlopJK
-Sun Oct 21 12:10:12 2018
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fri Oct 26 11:43:35 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -40,8 +40,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Oct 21 12:10:11 2018       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Flow Status                     ; Successful - Fri Oct 26 11:43:35 2018       ;
+; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; FlipFlopJK                                  ;
 ; Top-level Entity Name           ; FlipFlopJK                                  ;
 ; Family                          ; Cyclone V                                   ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/21/2018 12:09:39 ;
+; Start date & time ; 10/26/2018 11:42:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FlipFlopJK          ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 1099211416664.154013817904188          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 88623642251131.154056854009932         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -96,24 +96,30 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:32     ; 1.0                     ; 729 MB              ; 00:00:59                           ;
-; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:59                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 780 MB              ; 00:00:31                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 636 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 641 MB              ; 00:00:01                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:33                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; luisa-PC         ; Windows 7 ; 6.1        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MVQ9OQI  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off FlipFlopJK -c FlipFlopJK
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off FlipFlopJK -c FlipFlopJK --vector_source=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/Waveform.vwf --testbench_file=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/simulation/qsim/ FlipFlopJK -c FlipFlopJK
 
 
 

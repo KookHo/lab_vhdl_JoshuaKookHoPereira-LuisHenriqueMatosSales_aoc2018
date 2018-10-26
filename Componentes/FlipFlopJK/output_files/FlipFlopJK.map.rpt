@@ -1,6 +1,6 @@
 Analysis & Synthesis report for FlipFlopJK
-Sun Oct 21 12:10:12 2018
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fri Oct 26 11:42:34 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -43,8 +43,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 21 12:10:11 2018       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 26 11:42:34 2018       ;
+; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; FlipFlopJK                                  ;
 ; Top-level Entity Name           ; FlipFlopJK                                  ;
 ; Family                          ; Cyclone V                                   ;
@@ -166,15 +166,15 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                  ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                           ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
-; portaAND.vhd                     ; yes             ; User VHDL File  ; E:/arquitetura e organização de computadores/FlipFlopJK/portaAND.vhd   ;         ;
-; portaNOT.vhd                     ; yes             ; User VHDL File  ; E:/arquitetura e organização de computadores/FlipFlopJK/portaNOT.vhd   ;         ;
-; FlipFlopJK.vhd                   ; yes             ; User VHDL File  ; E:/arquitetura e organização de computadores/FlipFlopJK/FlipFlopJK.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                               ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                        ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------+---------+
+; portaAND.vhd                     ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaAND.vhd   ;         ;
+; portaNOT.vhd                     ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaNOT.vhd   ;         ;
+; FlipFlopJK.vhd                   ; yes             ; User VHDL File  ; C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -264,7 +264,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -273,26 +273,26 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Oct 21 12:09:37 2018
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Fri Oct 26 11:42:20 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FlipFlopJK -c FlipFlopJK
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file portaand.vhd
-    Info (12022): Found design unit 1: portaAND-behavior File: E:/arquitetura e organização de computadores/FlipFlopJK/portaAND.vhd Line: 13
-    Info (12023): Found entity 1: portaAnd File: E:/arquitetura e organização de computadores/FlipFlopJK/portaAND.vhd Line: 4
+    Info (12022): Found design unit 1: portaAND-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaAND.vhd Line: 13
+    Info (12023): Found entity 1: portaAnd File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaAND.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file portaor.vhd
-    Info (12022): Found design unit 1: portaOR-behavior File: E:/arquitetura e organização de computadores/FlipFlopJK/portaOR.vhd Line: 13
-    Info (12023): Found entity 1: portaOR File: E:/arquitetura e organização de computadores/FlipFlopJK/portaOR.vhd Line: 4
+    Info (12022): Found design unit 1: portaOR-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaOR.vhd Line: 13
+    Info (12023): Found entity 1: portaOR File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaOR.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file portanot.vhd
-    Info (12022): Found design unit 1: portaNOT-func File: E:/arquitetura e organização de computadores/FlipFlopJK/portaNOT.vhd Line: 11
-    Info (12023): Found entity 1: portaNOT File: E:/arquitetura e organização de computadores/FlipFlopJK/portaNOT.vhd Line: 4
+    Info (12022): Found design unit 1: portaNOT-func File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaNOT.vhd Line: 11
+    Info (12023): Found entity 1: portaNOT File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/portaNOT.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file flipflopjk.vhd
-    Info (12022): Found design unit 1: FlipFlopJK-behavior File: E:/arquitetura e organização de computadores/FlipFlopJK/FlipFlopJK.vhd Line: 11
-    Info (12023): Found entity 1: FlipFlopJK File: E:/arquitetura e organização de computadores/FlipFlopJK/FlipFlopJK.vhd Line: 4
+    Info (12022): Found design unit 1: FlipFlopJK-behavior File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd Line: 11
+    Info (12023): Found entity 1: FlipFlopJK File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd Line: 4
 Info (12127): Elaborating entity "FlipFlopJK" for the top level hierarchy
-Info (12128): Elaborating entity "portaAnd" for hierarchy "portaAnd:G1" File: E:/arquitetura e organização de computadores/FlipFlopJK/FlipFlopJK.vhd Line: 39
-Info (12128): Elaborating entity "portaNOT" for hierarchy "portaNOT:G3" File: E:/arquitetura e organização de computadores/FlipFlopJK/FlipFlopJK.vhd Line: 41
+Info (12128): Elaborating entity "portaAnd" for hierarchy "portaAnd:G1" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd Line: 39
+Info (12128): Elaborating entity "portaNOT" for hierarchy "portaNOT:G3" File: C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopJK/FlipFlopJK.vhd Line: 41
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -301,9 +301,9 @@ Info (21057): Implemented 7 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 729 megabytes
-    Info: Processing ended: Sun Oct 21 12:10:12 2018
-    Info: Elapsed time: 00:00:35
-    Info: Total CPU time (on all processors): 00:01:00
+    Info: Peak virtual memory: 780 megabytes
+    Info: Processing ended: Fri Oct 26 11:42:34 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:31
 
 

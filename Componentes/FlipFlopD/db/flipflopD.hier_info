@@ -1,0 +1,65 @@
+|flipflopD
+D => portaAND:G1.A
+D => portaAND:G3.A
+D => portaAND:G3.B
+clock => portaAND:G1.B
+clock => portaAND:G5.A
+Q0 <= portaNOT:G10.S
+Q1 <= portaNOT:G8.S
+
+
+|flipflopD|portaAnd:G1
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaNOT:G2
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaAnd:G3
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaNOT:G4
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaAnd:G5
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaNOT:G6
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaAnd:G7
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaNOT:G8
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaAnd:G9
+A => SA.IN0
+B => SA.IN1
+SA <= SA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflopD|portaNOT:G10
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+

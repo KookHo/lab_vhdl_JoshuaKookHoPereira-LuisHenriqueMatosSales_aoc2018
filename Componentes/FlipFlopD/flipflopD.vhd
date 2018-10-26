@@ -10,16 +10,16 @@ end flipflopD;
 
 ARCHITECTURE behavior of flipflopD is
 
-component PortaAND
+component portaAND
 	port (A: in STD_LOGIC;
 			B: in STD_LOGIC;
 			SA: out STD_LOGIC
 			);
 end component;
 
-component PortaNOT
-	port(NA: in STD_LOGIC;
-		  SN: out STD_LOGIC
+component portaNOT
+	port(A: in STD_LOGIC;
+		  S: out STD_LOGIC
 		  );
 end component;
 

@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity TheMultiplexador is port
 	(
 	 A, O, NR, NA, X ,NO :in std_logic;
-	 Sum, Sub: in std_logic_vector (15 downto 0);
+	 Sum, Sub, ShiftL, ShiftR: in std_logic_vector (15 downto 0);
 	 Choice: in std_logic_vector (3 downto 0);
 	 OutPut: out std_logic_vector (15 downto 0)
 	);
@@ -24,8 +24,8 @@ begin
 				when "0110" => OutPut <=	(0 => NA, others => '0');
 				when "0111" => OutPut <=	(0 => NR, others => '0');
 				when "1000" => OutPut <=	(0 => X, others => '0');
-				when "1001" => OutPut <=	(others => '0');
-				when "1010" => OutPut <=	(others => '0');
+				when "1001" => OutPut <=	ShiftL;
+				when "1010" => OutPut <=	ShiftR;
 				when "1011" => OutPut <=	(others => '0');
 				when "1100" => OutPut <=	(others => '0');
 				when "1101" => OutPut <=	(others => '0');

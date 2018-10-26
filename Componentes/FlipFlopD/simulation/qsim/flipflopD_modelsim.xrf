@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopD/portaAND.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopD/portaOR.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopD/portaNOT.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopD/flipflopD.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/joshua/quartus-lite-18.0.0.614-windows/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Joshua/AOC/LAB/lab_vhdl_JoshuaKookHoPereira-LuisHenriqueMatosSales_aoc2018/Componentes/FlipFlopD/db/flipflopD.cbx.xml
+design_name = flipflopD
+instance = comp, \Q0~output\, Q0~output, flipflopD, 1
+instance = comp, \Q1~output\, Q1~output, flipflopD, 1
+instance = comp, \D~input\, D~input, flipflopD, 1
+instance = comp, \clock~input\, clock~input, flipflopD, 1
+instance = comp, \G9|SA~1\, G9|SA~1, flipflopD, 1
+instance = comp, \G7|SA\, G7|SA, flipflopD, 1
